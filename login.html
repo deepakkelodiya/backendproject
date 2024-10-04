@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap');
+        body{
+            font-family: 'Dongle', sans-serif;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+            align-items: center;
+            margin: auto;
+            padding: 20px;
+            max-width: 500px;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            margin-left: auto;
+
+        line-height: 20px;
+        font-size: larger;
+        }
+        img{
+            max-width: 55%;
+        }   
+    </style>
+</head>
+<body>
+    <img src="images/logo.png" alt="">
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="exampleModalLabel">Login</h5>
+                    
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                            <br>
+                            <br>
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password">
+                        </div>
+                        <div class="d-grid gap-2">
+                            <br><br>
+                            <button type="submit" class="btn btn-primary">Login</button>
+                        </div>
+                        <p class="text-center mt-3">Don't have an account? <a href="register.html">Register</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <div>
+                <p> &copy; 2022 Lufthansa. All Rights are Reserved</p>
+            </div>
+            <div>
+                <a href="#"><i class="fa fa-facebook" style="font-size: 24px; color: #3b5998; padding-right: 10px;"></i>Facebook</a>
+                <a href="#"><i class="fa fa-instagram" style="font-size: 24px; color: #e1306c; padding-right: 10px;"></i>Instagram</a>
+                <a href="#"><i class="fa fa-instagram" style="font-size: 24px; color: #e1306c; padding-right: 10px;"></i>Whatsapp</a>
+                <a href="#"><i class="fa fa-instagram" style="font-size: 24px; color: #e1306c; padding-right: 10px;"></i>Twitter</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
